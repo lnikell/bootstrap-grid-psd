@@ -1,0 +1,56 @@
+#configurator
+  .controls
+    padding-top  40px
+    padding-bottom  40px
+    background-color #fff
+    .actual-width-value
+      &.less
+        color #DA0F0F    
+    .control
+      margin-bottom 20px
+      span
+        vertical-align middle
+    label
+      margin-bottom 5px
+      display block
+    input
+      width 100%
+      padding 5px 0
+      border none
+      border-bottom 1px solid #D4D4D4
+      &:focus
+        outline none
+        border-color #0a71bf
+    .information
+      background  url('../images/info.svg') center
+      width 20px
+      height 20px
+      display inline-block
+      margin-left 5px
+      cursor pointer
+      position relative
+      &:hover
+        .tooltip
+          display block
+      .tooltip
+        position absolute
+        display none
+        top 10px
+        top 30px
+        width 300px
+        right -15px
+        text-align justify
+        padding 15px
+        background #0A71BF
+        color #fff
+        &:after
+          content ''
+          width 0
+          height 0
+          border-style solid
+          border-width 0 5px 6px 5px
+          border-color transparent transparent #0a70bf transparent
+          position absolute
+          top -6px
+          right 20px
+                

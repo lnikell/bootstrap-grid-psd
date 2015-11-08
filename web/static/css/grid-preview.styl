@@ -1,0 +1,63 @@
+.grid-preview
+  background-color #212121
+  overflow hidden
+  .photoshop-border
+    height 31px
+    background-color #515151
+    margin-bottom 100px
+  .grid-wrap
+    margin 0 auto
+    overflow hidden
+  .col
+    height 200px
+    position relative
+    width 100px
+    float left
+    background-color #FFE8E8
+    .left-padding, .right-padding
+      position absolute
+      top 0px
+      bottom 0px
+      background-color #D1EAD1
+    .left-padding
+      left 0px
+      &:before
+        content ''
+        position absolute
+        top 0px
+        bottom 0px
+        right 0px
+        width 1px
+        background-color #00A8FB
+        z-index 1
+    .right-padding
+      right 0px
+      &:before
+        content ''
+        position absolute
+        top 0px
+        bottom 0px
+        left 0px
+        width 1px
+        background-color #00A8FB
+        z-index 1
+    &:before
+      content ''
+      position absolute
+      top 0px
+      bottom 0px
+      left 0px
+      width 1px
+      background-color #00A8FB
+      z-index 1
+    &:last-child
+      &:after
+        content ''
+        position absolute
+        top 0px
+        bottom 0px
+        right 1px
+        width 1px
+        background-color #00A8FB
+        z-index 1
+      

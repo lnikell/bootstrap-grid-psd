@@ -1,0 +1,6 @@
+{
+  "name": "Bootstrap Grid PSD",
+  "dependencies": {
+    "react": "~0.14.2"
+  }
+}
